@@ -1,6 +1,6 @@
 # Unittest em Python
 
-Projeto com testes unitérios em Python.
+Projeto com testes unitários em Python.
 
 ## Instalar dependências
 
