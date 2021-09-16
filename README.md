@@ -1,6 +1,6 @@
-# Projeto Base Python
+# Unittest em Python
 
-Projeto base para iniciar qualquer projeto Python.
+Projeto com testes unitérios em Python.
 
 ## Instalar dependências
 
