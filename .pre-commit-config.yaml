@@ -43,6 +43,6 @@ repos:
         name: pytest
         stages: [push]
         language: system
-        entry: pipenv run pytest -p no:warnings --cov=. --cov-fail-under=100
+        entry: pipenv run pytest -p no:warnings --cov=. --cov-fail-under=90
         types: [python]
         pass_filenames: false
