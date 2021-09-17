@@ -33,7 +33,9 @@ def subtrai(x, y):
     return x - y
 
 
-if __name__ == "__main__":
+# Descomente as linhas abaixo para rodar o doctest:
+
+""" if __name__ == "__main__":
     import doctest
 
-    doctest.testmod(verbose=True)
+    doctest.testmod(verbose=True) """
