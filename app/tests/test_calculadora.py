@@ -42,11 +42,11 @@ class TestCalculadoraSoma(unittest.TestCase):
 
 
 class TestCalculadoraSubtrai(unittest.TestCase):
-    def test_subtrai_5_e_5_deve_retornar_10(self):
+    def test_subtrai_5_e_5_deve_retornar_0(self):
         self.assertEqual(subtrai(5, 5), 0)
 
-    def test_subtrai_5_negativo_e_5_deve_retornar_0(self):
-        self.assertEqual(subtrai(-5, 5), -10)
+    def test_subtrai_5_negativo_e_5_deve_retornar_10(self):
+        self.assertEqual(subtrai(20, 10), 10)
 
     def test_subtrai_varias_entradas(self):
         x_y_saidas = (
